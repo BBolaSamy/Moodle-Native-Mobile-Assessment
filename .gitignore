@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/
+
+# iOS local build artifacts
+ios/MoodleAssessmentApp/.derivedData/
+
+# Android/Gradle
+.gradle/
+local.properties
+**/build/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log

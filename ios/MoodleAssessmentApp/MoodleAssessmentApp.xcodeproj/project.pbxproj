@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FA1ED603F157703D59CC8B /* MoodleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8183E899260A16BDAC7BE68 /* MoodleConfig.swift */; };
+		06A955AF2D35975A62AE8696 /* CourseDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361DE1A05DB95924B76F177D /* CourseDetailsViewModel.swift */; };
+		081E65515F037F900FBFA79A /* CourseRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFCF2B28AE99341D5240D10 /* CourseRepositoryProtocol.swift */; };
+		08A5859FF76E3AA0D185094A /* LoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2892712160CA624F84194817 /* LoadableView.swift */; };
+		09526DF6FCD0542803832EBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FBA04A2CD1A192DB8CB61F /* Foundation.framework */; };
+		0E80893DB59E98F025B3A52D /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5383BD03D5EE1C764F0F6B7 /* AppSession.swift */; };
+		0EF5DA2DA9192851444EE014 /* GradeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9037D911A65A07429D5D9 /* GradeItem.swift */; };
+		18027A2DF2C111F1E1D851BA /* MapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B5A036D365FD6EB942E5ED /* MapperTests.swift */; };
+		1BAE195DAA9F03BC7C8DCFAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FBA04A2CD1A192DB8CB61F /* Foundation.framework */; };
+		1BF87E809A24AE91190BD009 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077B8962307016E01A6095CB /* Preview Assets.xcassets */; };
+		30507A5E6E281DBBC13E6836 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575618B8AA3AAFA130DE854F /* ViewState.swift */; };
+		317A8C907F2DF37F9A47C264 /* CoursesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091FD1C26C15FC1097FBE905 /* CoursesScreen.swift */; };
+		3F971C939878798EF0D38E33 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC470424074DACF40C25FE /* Course.swift */; };
+		4459E535B2540147598AEE0A /* CourseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075F9CF3E0498222D2BF678 /* CourseMapper.swift */; };
+		5A6786285930041741FBE1E3 /* CourseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469BBB59EBFE4009FB343BD /* CourseRowView.swift */; };
+		5CB8B23DE3D1A80B41A8FA3C /* GradesResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A9DEC1BE7E8A90DCD2E7F /* GradesResponseDTO.swift */; };
+		6211DB949DB4C694B6F99CDB /* GradeMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D63358321508A1F5A734B /* GradeMapper.swift */; };
+		696E5EB9E2D3795375136769 /* MoodleAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3301FD3B03426C062790D /* MoodleAPIClient.swift */; };
+		6B4DAC05C29CB776CC1E615F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D643FCD8570C047552EB7 /* RootView.swift */; };
+		779F2B2CEF092BD32AB92145 /* GradesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E3110275D917064A5734A4 /* GradesScreen.swift */; };
+		80CBCE26A85E435AE9FF2CFB /* APIRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE869B1D665C80846BB1EF1 /* APIRequestBuilderTests.swift */; };
+		8688FC3469F3D200E04424E6 /* CourseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA02B1118366DEAD54B6AE2 /* CourseRepository.swift */; };
+		89362844ABCD577E1FE1A7E1 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE9E12EE124E8906234818 /* AppContainer.swift */; };
+		9A6D717A3CA02B5CEF7E8096 /* CourseSectionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F892FF0A7BE9A8579817A0C /* CourseSectionDTO.swift */; };
+		A215C7CFBEA1320B2ABFF733 /* CourseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49DF5554355525BB97E981 /* CourseDTO.swift */; };
+		A8F8F387DFA1D64B465200A9 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924DD827B8223181652CB324 /* APIError.swift */; };
+		A90F0DF9B7202EED598AD165 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92CBC7D5154CA88FAFFF6C0 /* CourseSection.swift */; };
+		B8AE73A46606FBF6855D2685 /* CourseSectionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCF2459EBB35B910D59A2B /* CourseSectionMapper.swift */; };
+		C2DD15B492207344698FB37B /* CourseDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E9BBEAF979FCC5CC5B505 /* CourseDetailsScreen.swift */; };
+		D54F1734D9465B0EC9BBA96C /* MoodleAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E027ED81991388D43773AC /* MoodleAssessmentApp.swift */; };
+		EA999CCD1AF62356FBC4DE2C /* MoodleFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB980A9C000A591B0E09B75 /* MoodleFunction.swift */; };
+		EED98FD0EB629CBBF89B0121 /* GradeItemDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5E1965DE64EC7A20C62E9 /* GradeItemDTO.swift */; };
+		F0078BDF162D951915EBEFEF /* CoursesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE35DE53D4FF0C094F42209 /* CoursesViewModel.swift */; };
+		F12A2277F4BE885164A188F9 /* CoursesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCE222B7B0FC6CC88B7F4D /* CoursesViewModelTests.swift */; };
+		F3C6F8572CC88BCF6369FE56 /* MoodleAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20C9C27D43B65F86E5FBA49 /* MoodleAPIClientProtocol.swift */; };
+		F4FBCB62D3961B9439DAD225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1258DF0FD64FE82AE0669C15 /* Assets.xcassets */; };
+		F7A264155A1F137F27E1448A /* GradesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63515EAD361C5450C9665182 /* GradesViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EA9A8D8DC723D7315BE7333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55A46E16CB05CED7D6AC93D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85E5A37840C88181607D867A;
+			remoteInfo = MoodleAssessmentApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072BC21B2A9E267AB1551C93 /* MoodleAssessmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodleAssessmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077B8962307016E01A6095CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
+		091FD1C26C15FC1097FBE905 /* CoursesScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoursesScreen.swift; path = Presentation/Courses/CoursesScreen.swift; sourceTree = "<group>"; };
+		0CB980A9C000A591B0E09B75 /* MoodleFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoodleFunction.swift; path = Data/Networking/MoodleFunction.swift; sourceTree = "<group>"; };
+		0FFCF2B28AE99341D5240D10 /* CourseRepositoryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CourseRepositoryProtocol.swift; path = Domain/CourseRepositoryProtocol.swift; sourceTree = "<group>"; };
+		1258DF0FD64FE82AE0669C15 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		194D63358321508A1F5A734B /* GradeMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradeMapper.swift; path = Data/Mapping/GradeMapper.swift; sourceTree = "<group>"; };
+		1CA02B1118366DEAD54B6AE2 /* CourseRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CourseRepository.swift; path = Data/Repository/CourseRepository.swift; sourceTree = "<group>"; };
+		1F892FF0A7BE9A8579817A0C /* CourseSectionDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CourseSectionDTO.swift; path = Data/DTO/CourseSectionDTO.swift; sourceTree = "<group>"; };
+		24DCF2459EBB35B910D59A2B /* CourseSectionMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CourseSectionMapper.swift; path = Data/Mapping/CourseSectionMapper.swift; sourceTree = "<group>"; };
+		2892712160CA624F84194817 /* LoadableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadableView.swift; path = Presentation/Common/LoadableView.swift; sourceTree = "<group>"; };
+		32EC470424074DACF40C25FE /* Course.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Course.swift; path = Domain/Course.swift; sourceTree = "<group>"; };
+		361DE1A05DB95924B76F177D /* CourseDetailsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CourseDetailsViewModel.swift; path = Presentation/CourseDetails/CourseDetailsViewModel.swift; sourceTree = "<group>"; };
+		4AE869B1D665C80846BB1EF1 /* APIRequestBuilderTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIRequestBuilderTests.swift; sourceTree = "<group>"; };
+		4D49DF5554355525BB97E981 /* CourseDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CourseDTO.swift; path = Data/DTO/CourseDTO.swift; sourceTree = "<group>"; };
+		575618B8AA3AAFA130DE854F /* ViewState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewState.swift; path = Domain/ViewState.swift; sourceTree = "<group>"; };
+		5C1D643FCD8570C047552EB7 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = App/RootView.swift; sourceTree = "<group>"; };
+		63515EAD361C5450C9665182 /* GradesViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradesViewModel.swift; path = Presentation/Grades/GradesViewModel.swift; sourceTree = "<group>"; };
+		65022C85AD0F4BF27566AFF2 /* MoodleAssessmentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodleAssessmentAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E3110275D917064A5734A4 /* GradesScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradesScreen.swift; path = Presentation/Grades/GradesScreen.swift; sourceTree = "<group>"; };
+		8075F9CF3E0498222D2BF678 /* CourseMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CourseMapper.swift; path = Data/Mapping/CourseMapper.swift; sourceTree = "<group>"; };
+		924DD827B8223181652CB324 /* APIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIError.swift; path = Data/Networking/APIError.swift; sourceTree = "<group>"; };
+		965A9DEC1BE7E8A90DCD2E7F /* GradesResponseDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradesResponseDTO.swift; path = Data/DTO/GradesResponseDTO.swift; sourceTree = "<group>"; };
+		96DCE222B7B0FC6CC88B7F4D /* CoursesViewModelTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoursesViewModelTests.swift; sourceTree = "<group>"; };
+		97F9037D911A65A07429D5D9 /* GradeItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradeItem.swift; path = Domain/GradeItem.swift; sourceTree = "<group>"; };
+		9CE3301FD3B03426C062790D /* MoodleAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoodleAPIClient.swift; path = Data/Networking/MoodleAPIClient.swift; sourceTree = "<group>"; };
+		A3E027ED81991388D43773AC /* MoodleAssessmentApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoodleAssessmentApp.swift; path = App/MoodleAssessmentApp.swift; sourceTree = "<group>"; };
+		B5383BD03D5EE1C764F0F6B7 /* AppSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppSession.swift; path = Config/AppSession.swift; sourceTree = "<group>"; };
+		B92CBC7D5154CA88FAFFF6C0 /* CourseSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CourseSection.swift; path = Domain/CourseSection.swift; sourceTree = "<group>"; };
+		C469BBB59EBFE4009FB343BD /* CourseRowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CourseRowView.swift; path = Presentation/Courses/CourseRowView.swift; sourceTree = "<group>"; };
+		CE8E9BBEAF979FCC5CC5B505 /* CourseDetailsScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CourseDetailsScreen.swift; path = Presentation/CourseDetails/CourseDetailsScreen.swift; sourceTree = "<group>"; };
+		D5FBA04A2CD1A192DB8CB61F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAE35DE53D4FF0C094F42209 /* CoursesViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoursesViewModel.swift; path = Presentation/Courses/CoursesViewModel.swift; sourceTree = "<group>"; };
+		E20C9C27D43B65F86E5FBA49 /* MoodleAPIClientProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoodleAPIClientProtocol.swift; path = Data/Networking/MoodleAPIClientProtocol.swift; sourceTree = "<group>"; };
+		E8183E899260A16BDAC7BE68 /* MoodleConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoodleConfig.swift; path = Config/MoodleConfig.swift; sourceTree = "<group>"; };
+		EBF5E1965DE64EC7A20C62E9 /* GradeItemDTO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradeItemDTO.swift; path = Data/DTO/GradeItemDTO.swift; sourceTree = "<group>"; };
+		EDAE9E12EE124E8906234818 /* AppContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppContainer.swift; path = App/AppContainer.swift; sourceTree = "<group>"; };
+		F6B5A036D365FD6EB942E5ED /* MapperTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapperTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47E2136D8BA947EA8E0BE722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE195DAA9F03BC7C8DCFAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAD363A4B6B64C2982F8A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09526DF6FCD0542803832EBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DD8AD58CD932C88B32297D = {
+			isa = PBXGroup;
+			children = (
+				6C4CAE23205860B8140A12DA /* Products */,
+				65D8FF4C2AA539DBC52341E4 /* Frameworks */,
+				6BEF9C4A383D4D70758E36AD /* MoodleAssessmentApp */,
+				3BD52DF801B5C63524DE485F /* MoodleAssessmentAppTests */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD52DF801B5C63524DE485F /* MoodleAssessmentAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AE869B1D665C80846BB1EF1 /* APIRequestBuilderTests.swift */,
+				96DCE222B7B0FC6CC88B7F4D /* CoursesViewModelTests.swift */,
+				F6B5A036D365FD6EB942E5ED /* MapperTests.swift */,
+			);
+			name = MoodleAssessmentAppTests;
+			path = MoodleAssessmentAppTests;
+			sourceTree = "<group>";
+		};
+		65D8FF4C2AA539DBC52341E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB4331E6AF4C584886698EA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BEF9C4A383D4D70758E36AD /* MoodleAssessmentApp */ = {
+			isa = PBXGroup;
+			children = (
+				EDAE9E12EE124E8906234818 /* AppContainer.swift */,
+				A3E027ED81991388D43773AC /* MoodleAssessmentApp.swift */,
+				5C1D643FCD8570C047552EB7 /* RootView.swift */,
+				B5383BD03D5EE1C764F0F6B7 /* AppSession.swift */,
+				E8183E899260A16BDAC7BE68 /* MoodleConfig.swift */,
+				4D49DF5554355525BB97E981 /* CourseDTO.swift */,
+				1F892FF0A7BE9A8579817A0C /* CourseSectionDTO.swift */,
+				EBF5E1965DE64EC7A20C62E9 /* GradeItemDTO.swift */,
+				965A9DEC1BE7E8A90DCD2E7F /* GradesResponseDTO.swift */,
+				8075F9CF3E0498222D2BF678 /* CourseMapper.swift */,
+				24DCF2459EBB35B910D59A2B /* CourseSectionMapper.swift */,
+				194D63358321508A1F5A734B /* GradeMapper.swift */,
+				924DD827B8223181652CB324 /* APIError.swift */,
+				9CE3301FD3B03426C062790D /* MoodleAPIClient.swift */,
+				E20C9C27D43B65F86E5FBA49 /* MoodleAPIClientProtocol.swift */,
+				0CB980A9C000A591B0E09B75 /* MoodleFunction.swift */,
+				1CA02B1118366DEAD54B6AE2 /* CourseRepository.swift */,
+				32EC470424074DACF40C25FE /* Course.swift */,
+				0FFCF2B28AE99341D5240D10 /* CourseRepositoryProtocol.swift */,
+				B92CBC7D5154CA88FAFFF6C0 /* CourseSection.swift */,
+				97F9037D911A65A07429D5D9 /* GradeItem.swift */,
+				575618B8AA3AAFA130DE854F /* ViewState.swift */,
+				2892712160CA624F84194817 /* LoadableView.swift */,
+				CE8E9BBEAF979FCC5CC5B505 /* CourseDetailsScreen.swift */,
+				361DE1A05DB95924B76F177D /* CourseDetailsViewModel.swift */,
+				C469BBB59EBFE4009FB343BD /* CourseRowView.swift */,
+				091FD1C26C15FC1097FBE905 /* CoursesScreen.swift */,
+				DAE35DE53D4FF0C094F42209 /* CoursesViewModel.swift */,
+				71E3110275D917064A5734A4 /* GradesScreen.swift */,
+				63515EAD361C5450C9665182 /* GradesViewModel.swift */,
+				1258DF0FD64FE82AE0669C15 /* Assets.xcassets */,
+				077B8962307016E01A6095CB /* Preview Assets.xcassets */,
+			);
+			name = MoodleAssessmentApp;
+			path = MoodleAssessmentApp;
+			sourceTree = "<group>";
+		};
+		6C4CAE23205860B8140A12DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				072BC21B2A9E267AB1551C93 /* MoodleAssessmentApp.app */,
+				65022C85AD0F4BF27566AFF2 /* MoodleAssessmentAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB4331E6AF4C584886698EA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D5FBA04A2CD1A192DB8CB61F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		424BCF8A266CF6422B2A5024 /* MoodleAssessmentAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A029597D229FCB0C04CD3DE7 /* Build configuration list for PBXNativeTarget "MoodleAssessmentAppTests" */;
+			buildPhases = (
+				6A97E2A8A8C20BCD6A6932D6 /* Sources */,
+				AFAD363A4B6B64C2982F8A08 /* Frameworks */,
+				A2AE4315C9EB9D7651AB0A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				523F9341196BE0B7582B2DD8 /* PBXTargetDependency */,
+			);
+			name = MoodleAssessmentAppTests;
+			productName = MoodleAssessmentAppTests;
+			productReference = 65022C85AD0F4BF27566AFF2 /* MoodleAssessmentAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85E5A37840C88181607D867A /* MoodleAssessmentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A642AB4EFF61B41F05C679E2 /* Build configuration list for PBXNativeTarget "MoodleAssessmentApp" */;
+			buildPhases = (
+				BA90D9E43559DB8E9BF61E13 /* Sources */,
+				47E2136D8BA947EA8E0BE722 /* Frameworks */,
+				645BDCB908EF4149B96F5DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodleAssessmentApp;
+			productName = MoodleAssessmentApp;
+			productReference = 072BC21B2A9E267AB1551C93 /* MoodleAssessmentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55A46E16CB05CED7D6AC93D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 024D8B2E6BFD987A1BDE7AD2 /* Build configuration list for PBXProject "MoodleAssessmentApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25DD8AD58CD932C88B32297D;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6C4CAE23205860B8140A12DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85E5A37840C88181607D867A /* MoodleAssessmentApp */,
+				424BCF8A266CF6422B2A5024 /* MoodleAssessmentAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		645BDCB908EF4149B96F5DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FBCB62D3961B9439DAD225 /* Assets.xcassets in Resources */,
+				1BF87E809A24AE91190BD009 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2AE4315C9EB9D7651AB0A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A97E2A8A8C20BCD6A6932D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CBCE26A85E435AE9FF2CFB /* APIRequestBuilderTests.swift in Sources */,
+				F12A2277F4BE885164A188F9 /* CoursesViewModelTests.swift in Sources */,
+				18027A2DF2C111F1E1D851BA /* MapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90D9E43559DB8E9BF61E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89362844ABCD577E1FE1A7E1 /* AppContainer.swift in Sources */,
+				D54F1734D9465B0EC9BBA96C /* MoodleAssessmentApp.swift in Sources */,
+				6B4DAC05C29CB776CC1E615F /* RootView.swift in Sources */,
+				0E80893DB59E98F025B3A52D /* AppSession.swift in Sources */,
+				05FA1ED603F157703D59CC8B /* MoodleConfig.swift in Sources */,
+				A215C7CFBEA1320B2ABFF733 /* CourseDTO.swift in Sources */,
+				9A6D717A3CA02B5CEF7E8096 /* CourseSectionDTO.swift in Sources */,
+				EED98FD0EB629CBBF89B0121 /* GradeItemDTO.swift in Sources */,
+				5CB8B23DE3D1A80B41A8FA3C /* GradesResponseDTO.swift in Sources */,
+				4459E535B2540147598AEE0A /* CourseMapper.swift in Sources */,
+				B8AE73A46606FBF6855D2685 /* CourseSectionMapper.swift in Sources */,
+				6211DB949DB4C694B6F99CDB /* GradeMapper.swift in Sources */,
+				A8F8F387DFA1D64B465200A9 /* APIError.swift in Sources */,
+				696E5EB9E2D3795375136769 /* MoodleAPIClient.swift in Sources */,
+				F3C6F8572CC88BCF6369FE56 /* MoodleAPIClientProtocol.swift in Sources */,
+				EA999CCD1AF62356FBC4DE2C /* MoodleFunction.swift in Sources */,
+				8688FC3469F3D200E04424E6 /* CourseRepository.swift in Sources */,
+				3F971C939878798EF0D38E33 /* Course.swift in Sources */,
+				081E65515F037F900FBFA79A /* CourseRepositoryProtocol.swift in Sources */,
+				A90F0DF9B7202EED598AD165 /* CourseSection.swift in Sources */,
+				0EF5DA2DA9192851444EE014 /* GradeItem.swift in Sources */,
+				30507A5E6E281DBBC13E6836 /* ViewState.swift in Sources */,
+				08A5859FF76E3AA0D185094A /* LoadableView.swift in Sources */,
+				C2DD15B492207344698FB37B /* CourseDetailsScreen.swift in Sources */,
+				06A955AF2D35975A62AE8696 /* CourseDetailsViewModel.swift in Sources */,
+				5A6786285930041741FBE1E3 /* CourseRowView.swift in Sources */,
+				317A8C907F2DF37F9A47C264 /* CoursesScreen.swift in Sources */,
+				F0078BDF162D951915EBEFEF /* CoursesViewModel.swift in Sources */,
+				779F2B2CEF092BD32AB92145 /* GradesScreen.swift in Sources */,
+				F7A264155A1F137F27E1448A /* GradesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		523F9341196BE0B7582B2DD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoodleAssessmentApp;
+			target = 85E5A37840C88181607D867A /* MoodleAssessmentApp */;
+			targetProxy = 1EA9A8D8DC723D7315BE7333 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3409CEE3B57A69AD7A3AF3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itcorner.moodleassessmentapp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368D577EB2F7D73F6A145135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itcorner.moodleassessmentapp.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodleAssessmentApp.app/MoodleAssessmentApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542A6B45C3913896753A3F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9879A2B50EDDDC10932F4179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itcorner.moodleassessmentapp.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodleAssessmentApp.app/MoodleAssessmentApp";
+			};
+			name = Debug;
+		};
+		CBA181B1207C7EEB193B4B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DA3CD8D14954042AB732531D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itcorner.moodleassessmentapp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024D8B2E6BFD987A1BDE7AD2 /* Build configuration list for PBXProject "MoodleAssessmentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542A6B45C3913896753A3F6F /* Debug */,
+				CBA181B1207C7EEB193B4B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A029597D229FCB0C04CD3DE7 /* Build configuration list for PBXNativeTarget "MoodleAssessmentAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368D577EB2F7D73F6A145135 /* Release */,
+				9879A2B50EDDDC10932F4179 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A642AB4EFF61B41F05C679E2 /* Build configuration list for PBXNativeTarget "MoodleAssessmentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3409CEE3B57A69AD7A3AF3C1 /* Release */,
+				DA3CD8D14954042AB732531D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55A46E16CB05CED7D6AC93D /* Project object */;
+}
