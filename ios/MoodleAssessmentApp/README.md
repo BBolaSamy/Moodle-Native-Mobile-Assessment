@@ -40,3 +40,9 @@ Included test coverage:
 - API request builder tests
 - DTO-to-domain mapper tests
 - ViewModel state transition tests
+
+## Notes on implementation decisions
+- The app uses token-only authentication for this submission to keep access aligned with the provided assessment credentials.
+- MVVM + Repository architecture is used to keep feature logic testable and consistent with the Android implementation.
+- State-driven UI (`loading`, `success`, `empty`, `error`) is applied across required screens for predictable UX.
+- Scope is intentionally limited to required endpoints and screens; offline cache and extended Moodle modules are excluded in this phase.

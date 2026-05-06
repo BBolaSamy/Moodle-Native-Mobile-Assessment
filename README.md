@@ -31,7 +31,7 @@ See platform-specific setup and run steps in:
 - `ios/MoodleAssessmentApp/README.md`
 - `android/README.md`
 
-## Implementation Notes
+## Notes on implementation decisions
 - Focus is limited to the requested assessment scope.
 - Loading, empty, error, and retry behaviors are implemented across required screens.
 - Android includes retry/backoff for transient server failures.

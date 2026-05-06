@@ -49,3 +49,9 @@ Configured endpoints:
 1. Open the `android` folder in Android Studio.
 2. Sync Gradle.
 3. Run on emulator or device.
+
+## Notes on implementation decisions
+- Token-only authentication is used to match the current assessment flow and simplify startup.
+- API access is routed through a repository layer with DTO-to-domain mapping for clearer separation of concerns.
+- Retry/backoff is implemented for transient server-side failures (5xx) to improve resilience.
+- The initial release focuses strictly on required endpoints and screens; offline caching and advanced Moodle modules are intentionally out of scope.
